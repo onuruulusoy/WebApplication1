@@ -185,7 +185,7 @@
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Ürünler</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="Kategori.aspx?urun_katagori=telefon">Telefonlar</a></li>
                         <li><a class="text-decoration-none" href="Kategori.aspx?urun_katagori=laptop">Bilgisayarlar</a></li>
