@@ -61,7 +61,6 @@
         .auto-style10 {
             margin-left: 568px;
         }
-
     </style>
     <link href="Kaynak/headers.css" rel="stylesheet" />
 </head>
@@ -72,9 +71,9 @@
             <div class="w-100 d-flex justify-content-between">
                 <div>
                     <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@zamazon.com">info@company.com</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@zamazon.com">info@zamazon.com</a>
                     <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="#">010-020-0340</a>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="#">0-850-00-00</a>
                 </div>
                 <div>
                     <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
@@ -153,7 +152,7 @@
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                 
-                    <asp:Button ID="Button1" runat="server" Text="Ara" OnClick="Button1_Click" CssClass="btn btn-dark"/>
+                    <asp:Button ID="Button1" runat="server" Text="Ara" OnClick="Button1_Click" CssClass="btn btn-dark" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     
                     <a class="nav-icon d-none d-lg-inline" href="login2.aspx" data-bs-toggle="modal" data-bs-target="#templatemo_search">
@@ -169,10 +168,179 @@
 
         </nav>
         <!-- Close Header -->
-        <div class="b-example-divider"></div>
+        <%--<div class="b-example-divider"></div>--%>
+        <!-- Start Banner Hero -->
+        <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                <a href="UrunDetay.aspx?urun_id=2">
+                                <img class="img-fluid"  src="Images/iphone12png.png"  alt="" /></a>
+                            </div>
+                            <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                <div class="text-align-left align-self-center">
+                                    <h1 class="h1 text-success"><b>Zamazon</b> Ticaret</h1>
+                                    <h3 class="h2">Iphone 12 </h3>
+                                    <p>
+                                        Neden Apple’dan satın almalısınız?
+Yeni iPhone’unuzu iletişim operatörünüze bağlayabilir, aygıtınızın kurulumunu hızla yapabilir ve dilediğiniz zaman bir Uzman ile online sohbet edebilirsiniz.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                <a href="UrunDetay.aspx?urun_id=12">
+                                <img class="img-fluid" src="Images/mi11litepng.png"  alt="" /></a>
+                            </div>
+                            <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                <div class="text-align-left">
+                                    <h1 class="h1">Muhteşem Ürünler</h1>
+                                    <h3 class="h2">Xiaomi Mi 11 Lite</h3>
+                                    <p>
+                                       Gücünü 8 çekirdekli Snapdragon 780G işlemciden alan Xiaomi Mi 11 Lite 5G, 6 GB RAM bellek ve 128 GB depolama alanı sunuyor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                <a href="UrunDetay.aspx?urun_id=13">
+                                <img class="img-fluid" src="./Images/a72png.png" /></a>
+                            </div>
+                            <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                <div class="text-align-left">
+                                    <h1 class="h1">Gelecek İçin</h1>
+                                    <h3 class="h2">Samsung Galaxy A72 128 GB</h3>
+                                    <p>
+                                        Acayip iyi ekran ile akıcı görüntüleri yakından keşfedin
+Parlak gün ışığında bile 800 nit¹ değerlerine ulaşabilen FHD+ Super AMOLED ekranın canlı renkleriyle acayip iyi bir dünyanın keyfini sürün. Göz koruma kalkanı² mavi ışığı azaltır.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+        <!-- End Banner Hero -->
+
+        <!-- Start Categories of The Month -->
+        <section class="container py-5">
+            <div class="row text-center pt-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Ayın En Çok Satanları</h1>
+                    <p>
+                        Zamazon'da Ayın En Çok Satanları Sizlerle.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12 col-md-4 p-5 mt-3">
+                    
+                        <img src="Images/macbookpro.jpg" class="rounded-circle img-fluid border"/>
+                    <h5 class="text-center mt-3 mb-3">Apple MacBook Pro Intel Core i5</h5>
+                    <p class="text-center">
+                        <asp:Button ID="Button2" runat="server" Text="Git" CssClass="btn btn-success" OnClick="Button2_Click" /></p>
+                </div>
+                <div class="col-12 col-md-4 p-5 mt-3">
+                    
+                        <img src="Images/a72.jpg" class="rounded-circle img-fluid border"/>
+                    <h2 class="h5 text-center mt-3 mb-3">Samsung Galaxy A72 128 GB</h2>
+                    <p class="text-center"><asp:Button ID="Button3" runat="server" Text="Git" CssClass="btn btn-success" OnClick="Button3_Click" /></p>
+                </div>
+                <div class="col-12 col-md-4 p-5 mt-3">
+                    
+                        <img src="Images/yoga.jpg" class="rounded-circle img-fluid border"/>
+                    <h2 class="h5 text-center mt-3 mb-3">Lenovo Yoga Smart TAB 64GB 10.1"</h2>
+                    <p class="text-center"><asp:Button ID="Button4" runat="server" Text="Git" CssClass="btn btn-success" OnClick="Button4_Click" /></p>
+                </div>
+            </div>
+        </section>
+        <!-- End Categories of The Month -->
 
 
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:dbcs %>" SelectCommand="SELECT * FROM [urunler]"></asp:SqlDataSource>
+         <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer" style="height:300px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zamazon Ticaret</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Devlet Atatürk Bulvarı No:153, 06543 Çankaya/Ankara
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:0-850-00-00">0-850-00-00</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:info@zamazon.com">info@zamazon.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="Kategori.aspx?urun_katagori=telefon">Telefonlar</a></li>
+                        <li><a class="text-decoration-none" href="Kategori.aspx?urun_katagori=laptop">Bilgisayarlar</a></li>
+                        <li><a class="text-decoration-none" href="Kategori.aspx?urun_katagori=tablet">Tabletler</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+
+                    
+                </div>
+            </div>          
+        </div>
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2021 Zamazon E-Ticaret 
+                            | Designed by Onur Ulusoy
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+
+        <%--<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:dbcs %>" SelectCommand="SELECT * FROM [urunler]"></asp:SqlDataSource>
         <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1" RepeatColumns="3" RepeatDirection="Horizontal">
             <ItemStyle Font-Bold="False" Font-Italic="False" Font-Names="Adobe Arabic" Font-Overline="False" Font-Strikeout="False" Font-Underline="False" />
             <ItemTemplate>
@@ -197,43 +365,12 @@
                     </div>
                 </div>
             </ItemTemplate>
-        </asp:DataList>
-        <%--        <asp:ListView ID="listView1" runat="server">
-            <ItemTemplate>
-                <div class="d-flex justify-content-center container mt-5">
-                    <div class="card p-3 bg-white">
-                        <i class="fa fa-apple"></i>
-                        <div class="about-product text-center mt-2">
-
-                            <asp:Image ID="Image2" runat="server" ImageUrl='<%# Eval("urun_resim") %>' Width="300" />
-                            <div>
-                                <h4>
-                                    <asp:Label ID="Label7" runat="server" CssClass="auto-style5" Text='<%# Eval("urun_adi") %>'></asp:Label></h4>
-                            </div>
-                        </div>
-                        <div class="stats mt-2">
-                            <div class="d-flex justify-content-between p-price"><span>Fiyat</span><span><asp:Label ID="Label8" runat="server" CssClass="auto-style6" Text='<%# Eval("urun_fiyat") %>'></asp:Label></span></div>
-                        </div>
-                        <div class="d-flex justify-content-between total font-weight-bold mt-4">
-                            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Sepete Ekle" />
-                            <span>$7,197.00</span>
-                            <a href="UrunDetay.aspx?urun_id=<%# Eval("urun_id")%>">
-                                <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Button" />
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </ItemTemplate>
-        </asp:ListView>--%>
-        <br />
-        <%--<asp:ListView runat="server">
-            <ItemTemplate>
-                <asp:Image ID="Image2" runat="server" ImageUrl='<%# Eval("urun_resim") %>' Height="272px" Width="253px" />
-                <asp:Label ID="Label7" runat="server" CssClass="auto-style5" Text='<%# Eval("urun_adi") %>'></asp:Label>
-                <asp:Label ID="Label8" runat="server" CssClass="auto-style6" Text='<%# Eval("urun_fiyat") %>'></asp:Label>
-            </ItemTemplate>
-        </asp:ListView>--%>
+        </asp:DataList>--%>
     </form>
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>

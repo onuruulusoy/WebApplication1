@@ -36,12 +36,12 @@
                     
                 <br />
                 <asp:Label ID="Label4" runat="server" CssClass="col-form-label-lg" Text="Parola:"></asp:Label>
-                <asp:TextBox ID="TextBox4" runat="server" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" CssClass="form-control" TextMode="Password"></asp:TextBox>
                  <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox3" ErrorMessage="Parolanızı Giriniz!" ForeColor="Red" ValidationGroup="aaa">*</asp:RequiredFieldValidator>
                 <br />
                 <asp:Label ID="Label5" runat="server" CssClass="col-form-label-lg" Text="Parola Tekrar:"></asp:Label>
                 <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Paralanız Eşleşmiyor!" ControlToCompare="TextBox4" ControlToValidate="TextBox5" ForeColor="Red" ValidationGroup="aaa">*</asp:CompareValidator>
-                <asp:TextBox ID="TextBox5" runat="server" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="TextBox5" runat="server" CssClass="form-control" TextMode="Password"></asp:TextBox>
             </div>
             <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" ValidationGroup="aaa" />
             <br />                      

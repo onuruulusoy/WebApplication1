@@ -51,6 +51,7 @@ namespace WebApplication1
                 TextBox4.Text = oku["sifre"].ToString();
                 TextBox9.Text = oku["admin"].ToString();
             }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)

@@ -32,7 +32,7 @@ namespace WebApplication1
             if (oku.Read())
             {
                 Session["kullanici_id"] = oku["kullanici_id"].ToString();
-                //Session["kullanici_adi"] = oku["kullanici_adi"].ToString();
+                Session["adi_soyadi"] = oku["adi_soyadi"].ToString();
                 Response.Redirect("AnaSayfa.aspx");
             }
             else

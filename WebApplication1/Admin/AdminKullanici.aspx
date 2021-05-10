@@ -44,6 +44,7 @@
                     <ul class="unstyled list-hover-slide">
                         <li><a href="AdminUrun.aspx">Ürünler</a></li>
                         <li><a href="#">Kullanıcılar</a></li>
+                        <li><a href="AdminSiparis.aspx">Siparişler</a></li>
                         <li><a href="../login2.aspx">Çıkış Yap</a></li>
            
                     </ul>

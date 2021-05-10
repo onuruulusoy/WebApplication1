@@ -28,7 +28,7 @@
             <br />
             <div class="form-floating">       
                 <asp:Label ID="Label2" runat="server" CssClass="col-form-label-lg" Text="Şifre"></asp:Label>
-                <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" TextMode="Password"></asp:TextBox>
                 <br />
             </div>
             <asp:Button ID="Button1" runat="server" Text="Admin Girişi Yap" class="w-100 btn btn-lg btn-secondary" OnClick="Button1_Click"  />

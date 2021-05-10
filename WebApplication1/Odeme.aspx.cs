@@ -42,7 +42,7 @@ namespace WebApplication1
                 wcb.Open();
             }
             //*********Ekleme kodu***********
-            string sqlkodu = "insert into Odeme(KullaniciId,SepetId,KartNo,KartCvv,Tutar,Tarih,Durumu,kartAdSoyad) values (@KullaniciId,@SepetId,@KartNo,@KartCvv,@Tutar,@Tarih,@Durumu,@kartAdSoyad)";
+            string sqlkodu = "insert into Odeme(KullaniciId,SepetId,KartNo,KartCvv,Tutar,Tarih,Durumu,kartAdSoyad,KullaniciAdiSoyadi,KargoDurumu) values (@KullaniciId,@SepetId,@KartNo,@KartCvv,@Tutar,@Tarih,@Durumu,@kartAdSoyad,@KullaniciAdiSoyadi,@KargoDurumu)";
             SqlCommand sqlcommand = new SqlCommand(sqlkodu, wcb);
             sqlcommand.Parameters.AddWithValue("@KullaniciId", Session["kullanici_id"]);
             sqlcommand.Parameters.AddWithValue("@SepetId", Session["SepetId"]);
@@ -52,6 +52,8 @@ namespace WebApplication1
             sqlcommand.Parameters.AddWithValue("@Tutar", Session["ToplamFiyat"]);
             sqlcommand.Parameters.AddWithValue("@Tarih", DateTime.Now);
             sqlcommand.Parameters.AddWithValue("@Durumu", "Ödendi");
+            sqlcommand.Parameters.AddWithValue("@KullaniciAdiSoyadi", Session["adi_soyadi"]);
+            sqlcommand.Parameters.AddWithValue("@KargoDurumu", "Hazırlanıyor");
             int a = sqlcommand.ExecuteNonQuery();
             if (a > 0)
             {

@@ -11,7 +11,7 @@ namespace WebApplication1
 {
 
 
-    public partial class hiddenfield
+    public partial class AdminSiparis
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace WebApplication1
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// HiddenField1 denetimi.
+        /// ListBox1 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField1;
+        protected global::System.Web.UI.WebControls.ListBox ListBox1;
 
         /// <summary>
         /// TextBox1 denetimi.
@@ -60,6 +60,33 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
 
         /// <summary>
+        /// TextBox4 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+
+        /// <summary>
+        /// TextBox5 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+
+        /// <summary>
+        /// TextBox9 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+
+        /// <summary>
         /// Button1 denetimi.
         /// </summary>
         /// <remarks>
@@ -67,14 +94,5 @@ namespace WebApplication1
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// Button2 denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

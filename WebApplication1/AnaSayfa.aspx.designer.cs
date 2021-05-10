@@ -42,21 +42,30 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// SqlDataSource1 denetimi.
+        /// Button2 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// DataList1 denetimi.
+        /// Button3 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList1;
+        protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
+        /// Button4 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button4;
     }
 }

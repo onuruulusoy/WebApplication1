@@ -69,8 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminGirisi.aspx" />
+    <Content Include="Admin\AdminSiparis.aspx" />
     <Content Include="AnaSayfa.aspx" />
-    <Content Include="App_Data\Database1.mdb" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\custom.css" />
     <Content Include="assets\css\fontawesome.css" />
@@ -106,7 +106,6 @@
     <Content Include="Kaynak\script.js" />
     <Content Include="Kaynak\sidebars.css" />
     <Content Include="Kaynak\style.css" />
-    <Content Include="NewFolder1\hiddenfield.aspx" />
     <Content Include="Images\a52.jpg" />
     <Content Include="Images\airpods.jpg" />
     <Content Include="Images\calender.png" />
@@ -121,16 +120,12 @@
     <Content Include="Kaynak\bootstrap.min.css" />
     <Content Include="Kaynak\headers.css" />
     <Content Include="Kaynak\signin.css" />
-    <Content Include="NewFolder1\login.aspx" />
     <Content Include="Odeme.aspx" />
     <Content Include="Sepet.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="UrunDetay.aspx" />
     <Content Include="Web.config" />
-    <Content Include="NewFolder1\WebForm1.aspx" />
-    <Content Include="NewFolder1\OgrKayit.aspx" />
     <Content Include="login2.aspx" />
-    <Content Include="NewFolder1\WebForm6.aspx" />
     <Content Include="kayit.aspx" />
     <Content Include="Admin\AdminKullanici.aspx" />
     <Content Include="Admin\AdminUrun.aspx" />
@@ -142,6 +137,13 @@
     </Compile>
     <Compile Include="AdminGirisi.aspx.designer.cs">
       <DependentUpon>AdminGirisi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminSiparis.aspx.cs">
+      <DependentUpon>AdminSiparis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminSiparis.aspx.designer.cs">
+      <DependentUpon>AdminSiparis.aspx</DependentUpon>
     </Compile>
     <Compile Include="AnaSayfa.aspx.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
@@ -156,20 +158,6 @@
     </Compile>
     <Compile Include="Kategori.aspx.designer.cs">
       <DependentUpon>Kategori.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NewFolder1\hiddenfield.aspx.cs">
-      <DependentUpon>hiddenfield.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NewFolder1\hiddenfield.aspx.designer.cs">
-      <DependentUpon>hiddenfield.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NewFolder1\login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NewFolder1\login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Odeme.aspx.cs">
       <DependentUpon>Odeme.aspx</DependentUpon>
@@ -193,33 +181,12 @@
     <Compile Include="UrunDetay.aspx.designer.cs">
       <DependentUpon>UrunDetay.aspx</DependentUpon>
     </Compile>
-    <Compile Include="NewFolder1\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NewFolder1\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NewFolder1\OgrKayit.aspx.cs">
-      <DependentUpon>OgrKayit.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NewFolder1\OgrKayit.aspx.designer.cs">
-      <DependentUpon>OgrKayit.aspx</DependentUpon>
-    </Compile>
     <Compile Include="login2.aspx.cs">
       <DependentUpon>login2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login2.aspx.designer.cs">
       <DependentUpon>login2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NewFolder1\WebForm6.aspx.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NewFolder1\WebForm6.aspx.designer.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
     <Compile Include="kayit.aspx.cs">
       <DependentUpon>kayit.aspx</DependentUpon>

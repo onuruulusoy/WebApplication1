@@ -228,6 +228,21 @@ namespace WebApplication1
                 Response.Redirect("UrunDetay.aspx?urun_adi=" + TextBox1.Text + "");
             }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UrunDetay.aspx?urun_id=15");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UrunDetay.aspx?urun_id=13");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UrunDetay.aspx?urun_id=44");
+        }
     }
     
 }

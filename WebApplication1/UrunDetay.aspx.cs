@@ -288,6 +288,20 @@ namespace WebApplication1
             }
             wcb.Close();
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (TextBox1.Text==null)
+            {
+                ClientScript.RegisterStartupScript(Page.GetType(), "alert", "javascript:alert('Aramak İstediğiniz Ürünü Yazın');", true);
+
+            }
+
+            if (TextBox1.Text != null)
+            {
+                Response.Redirect("UrunDetay.aspx?urun_adi=" + TextBox1.Text + "");
+            }
+        }
     }
     
 
